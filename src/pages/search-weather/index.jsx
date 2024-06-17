@@ -66,7 +66,7 @@ export default function SearchWeather() {
           Please search for a city, use above input box and click search...
         </div>
       )}
-      { cityName && <AreaGraph city={cityName} /> }
+ {weatherData?.name && <AreaGraph city={weatherData?.name} /> }
     </div>
   );
 }
