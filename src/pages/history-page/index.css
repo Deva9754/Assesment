@@ -1,0 +1,46 @@
+#history-page {
+  padding: 24px;
+  display: grid;
+  row-gap: 16px;
+}
+.btn-rounded {
+  height: 24px;
+  width: 24px;
+  border-radius: 50% !important;
+  border: 0.5px solid !important;
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+  padding: 0 !important;
+}
+
+.history-page__heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.history-page__heading-title {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.history-page__heading h6 {
+  font-size: 28px;
+  font-weight: 500;
+}
+
+.history-page__weather-search-logs {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  row-gap: 24px;
+  column-gap: 24px;
+}
+
+.summary-logs__null-state {
+  font-size: 14px;
+  color: grey;
+  font-weight: 400;
+  text-align: center;
+}

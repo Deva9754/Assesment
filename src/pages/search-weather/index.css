@@ -1,0 +1,24 @@
+#search-weather {
+  padding: 24px;
+  display: grid;
+  row-gap: 16px;
+}
+
+.search-weather__heading h6 {
+  font-size: 28px;
+  text-align: center;
+  font-weight: 500;
+}
+
+.search-weather__city {
+  display: grid;
+  grid-template-columns: 10fr 1fr 1fr;
+  gap: 16px;
+}
+
+.search-weather__null-state {
+  font-size: 14px;
+  color: grey;
+  font-weight: 400;
+  text-align: center;
+}

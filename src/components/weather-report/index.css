@@ -1,0 +1,58 @@
+#weather-report {
+  display: grid;
+  row-gap: 20px;
+  margin-top: 24px;
+}
+.weather-report__Heading h4 {
+  font-size: 36px;
+  font-weight: 500;
+}
+
+.weather-report__details-temprature {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+}
+
+.weather-report__details-temprature-value {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.weather-report__details-temprature-value .caption {
+  font-size: 14px;
+  color: grey;
+}
+
+.weather-report__details {
+  display: grid;
+  row-gap: 24px;
+}
+
+.weather-report__details-temprature-value h6 {
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.weather-report__details-summary {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  row-gap: 16px;
+  column-gap: 16px;
+}
+
+.weather__summary {
+  display: flex;
+  gap: 6px;
+}
+
+.weather__summary .key {
+  font-size: 14px;
+  color: #373737;
+  font-weight: 300;
+}
+.weather__summary .value {
+  font-size: 18px;
+  font-weight: 500;
+}
