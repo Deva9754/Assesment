@@ -23,6 +23,7 @@ export default function SearchWeather() {
     try {
       const response = await fetch(API_URL + cityName);
       const data = await response.json();
+      console.log(data);
       if (data.cod === 200) {
         setWeatherData(data);
         setWeatherHistory((prev) => [...prev, data]);
@@ -66,7 +67,7 @@ export default function SearchWeather() {
           Please search for a city, use above input box and click search...
         </div>
       )}
- {weatherData?.name && <AreaGraph city={weatherData?.name} /> }
+      {weatherData?.name && <AreaGraph city={weatherData?.name} />}
     </div>
   );
 }

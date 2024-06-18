@@ -7,9 +7,11 @@ import Sunny from "../../assets/icons/sun.png";
 const icons = {
   Clouds: Cloud,
   Haze: Haze,
-  rainy: Rainy,
+  Rain: Rainy,
   sunny: Sunny,
   Smoke: Cloud,
+  Mist: Haze,
+  Clear: Sunny,
 };
 
 export const WeatherReport = (props) => {
