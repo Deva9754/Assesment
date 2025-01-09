@@ -8,4 +8,11 @@ body {
   height: 100vh;
   width: 100vw;
   font-family: "Inter", sans-serif;
+  background: rgb(10, 10, 51);
+  background: linear-gradient(
+    180deg,
+    rgba(10, 10, 51, 1) 0%,
+    rgba(105, 104, 119, 1) 95%
+  );
+  color: white;
 }
